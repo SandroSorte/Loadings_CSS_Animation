@@ -1,0 +1,60 @@
+/* Loading 1*/
+#load1{
+    display: flex;
+}
+#load1 div{
+    position: absolute;
+    height: 120px;
+    margin-top:3rem;
+    width: 8px;
+    border-radius:60px;
+    animation-play-state: paused;
+}
+
+#ld11{
+    animation: load1 4s linear infinite;
+    background-color: green !important;
+}
+#ld12{
+    transform: rotate(45deg);
+    animation: load2 4s linear infinite;
+    background-color: red !important;
+}
+#ld13{
+    transform: rotate(90deg);
+    animation: load3 4s linear infinite;
+    background-color: yellow !important;
+}
+#ld14{
+    transform: rotate(135deg);
+    animation: load4 4s linear infinite;
+    background-color: pink;
+}
+@keyframes load1{
+    from{ transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes load2{
+    from{ transform: rotate(45deg);
+    }
+    to{
+        transform: rotate(405deg);
+    }
+}
+@keyframes load3{
+    from{ transform: rotate(90deg);
+    }
+    to{
+        transform: rotate(450deg);
+    }
+}
+@keyframes load4{
+    from{ transform: rotate(135deg);
+    }
+    to{
+        transform: rotate(495deg);
+    }
+}
