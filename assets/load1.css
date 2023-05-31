@@ -1,34 +1,31 @@
 /* Loading 1*/
 #load1{
     display: flex;
+    margin-top: 3em;
 }
 #load1 div{
     position: absolute;
     height: 120px;
-    margin-top:3rem;
     width: 8px;
     border-radius:60px;
     animation-play-state: paused;
+    background-image: linear-gradient(rgb(0, 187, 255), black, rgb(0, 187, 255));
 }
 
 #ld11{
     animation: load1 4s linear infinite;
-    background-color: green !important;
 }
 #ld12{
     transform: rotate(45deg);
     animation: load2 4s linear infinite;
-    background-color: red !important;
 }
 #ld13{
     transform: rotate(90deg);
     animation: load3 4s linear infinite;
-    background-color: yellow !important;
 }
 #ld14{
     transform: rotate(135deg);
     animation: load4 4s linear infinite;
-    background-color: pink;
 }
 @keyframes load1{
     from{ transform: rotate(0deg);

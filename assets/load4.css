@@ -1,0 +1,61 @@
+/*Loading 4*/ 
+#load4{
+    display: flex;
+    gap: 1em;
+    margin-top: 5em;
+}
+#load4 div{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: violet;
+    box-shadow: 0px 4px 3px 2px rgb(149, 73, 73);
+    animation-play-state: paused;
+}
+#ball1{
+    animation: ball1 1.1s ease-out infinite;
+}
+#ball2{
+    animation: ball2 1.1s ease-out infinite;
+}
+#ball3{
+    animation: ball3 1.1s ease-out infinite;
+}
+#ball4{
+    animation: ball4 1.1s ease-out infinite;
+}
+
+@keyframes ball1{
+    from{
+        left: 0;
+    }
+    to{
+        left:55%
+    }
+}
+
+@keyframes ball2{
+    from{
+        right: 0;
+    }
+    to{
+        right:27%
+    }
+}
+@keyframes ball3{
+    from{
+        left: 0;
+    }
+    to{
+        left:27%
+    }
+}
+@keyframes ball4{
+    from{
+        right: 0;
+    }
+    to{
+        right:55%
+    }
+}

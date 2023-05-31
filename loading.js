@@ -1,7 +1,6 @@
 const btn = document.querySelector('.btn')
 const btn1 = document.querySelector('.btn1')
 const load = [...document.querySelectorAll('.ld1')]
-let clicado = false;
 
 btn.addEventListener('click',()=>{
     btn.classList.add('paused')
