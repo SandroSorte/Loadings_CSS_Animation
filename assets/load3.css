@@ -1,0 +1,50 @@
+/*Loading3*/
+
+#load3 {
+    display: flex;
+    gap: 1em;
+}
+
+#load3 div {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    animation-play-state: paused;
+}
+
+#ld31 {
+    border: 10px solid lightblue;
+    border-left: 10px solid blue;
+    animation: circle 1s linear infinite;
+}
+
+#ld32 {
+    border: 10px solid transparent;
+    border-left: 10px solid blue;
+    border-radius: 50%;
+    animation: circle 1s linear infinite;
+}
+#ld33{
+    border: 10px solid transparent;
+    border-top: 10px solid blue;
+    border-bottom: 10px solid blue;
+    animation: circle 1s linear infinite;
+}
+#ld34{
+    border: 10px dotted blue;
+    animation: circle1 1.5s linear infinite alternate ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes circle {
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes circle1 {
+    to {
+        transform: rotate(360deg);
+        border: 10px dotted red;
+
+    }
+}
