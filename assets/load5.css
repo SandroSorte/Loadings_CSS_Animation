@@ -1,0 +1,98 @@
+#load5{
+    display: flex;
+    flex-direction: column;
+    gap:2px
+}
+
+#load5 div{
+    background-color: rgba(17, 16, 16,0.3);
+    height: 8px;
+    width: 120px;
+    border-radius:60px;
+    animation-play-state:paused;
+}
+#slash1{
+    animation: slash1 2.5s linear infinite;
+}
+#slash2{
+    animation: slash2 2.5s linear infinite;
+}
+#slash3{
+    animation: slash3 2.5s linear infinite;
+}
+#slash4{
+    animation: slash4 2.5s linear infinite;
+}
+
+@keyframes slash1 {
+    0%{
+        transform: translate(0);
+    }
+    25%{
+        transform: translate(0, -30px);
+        background-color: green;
+    }
+    50%{
+        transform: translate(0);
+    }
+    75%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+@keyframes slash2 {
+    0%{
+        transform: translate(0);
+    }
+    25%{
+        transform: translate(0, -10px);
+        background-color: blue;
+    }
+    50%{
+        transform: translate(0);
+    }
+    75%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+@keyframes slash3 {
+    0%{
+        transform: translate(0);
+    }
+    25%{
+        transform: translate(0, 10px);
+        background-color: red;
+    }
+    50%{
+        transform: translate(0);
+    }
+    75%{
+        transform: rotate(-90deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+@keyframes slash4 {
+    0%{
+        transform: translate(0);
+    }
+    25%{
+        transform: translate(0, 30px);
+        background-color: yellow;
+    }
+    50%{
+        transform: translate(0);
+    }
+    75%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}

@@ -2,12 +2,11 @@
 #load4{
     display: flex;
     gap: 1em;
-    margin-top: 5em;
 }
 #load4 div{
     position: relative;
-    width: 60px;
-    height: 60px;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
     background-color: violet;
     box-shadow: 0px 4px 3px 2px rgb(149, 73, 73);

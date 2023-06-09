@@ -79,3 +79,22 @@ btnStop4.addEventListener('click',()=>{
         btnStop4.style.display= 'none'
     })
 })
+//Loading 5
+const btnPlay5 = document.querySelector('#btn-play5')
+const btnStop5 = document.querySelector('#btn-stop5')
+const load5 = [...document.querySelectorAll('.ld5')]
+
+btnPlay5.addEventListener('click',()=>{
+    btnPlay5.classList.add('paused')
+    btnStop5.style.display= 'block'
+    load5.map((e)=>{
+        e.classList.add('run')
+    })
+})
+btnStop5.addEventListener('click',()=>{
+    load5.map((e)=>{
+        e.classList.remove('run')
+        btnPlay5.classList.remove('paused')
+        btnStop5.style.display= 'none'
+    })
+})

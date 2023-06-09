@@ -1,7 +1,9 @@
 /* Loading 1*/
 #load1{
     display: flex;
-    margin-top: 3em;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 #load1 div{
     position: absolute;

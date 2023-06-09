@@ -4,20 +4,16 @@
     align-items: center;
 }
 #load2 div{
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     background-color: lightcoral;
     align-items: center;
     border-radius: 50%;
     animation-play-state: paused;
 }
-#pontos{
-    display:flex;
-}
 h1{
-    font-size: 3em;
+    font-size: 2em;
     font-style: italic;
-    margin: .3em;
     animation: carregando 2s linear infinite alternate;
     animation-play-state: paused;
 }
