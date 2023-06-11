@@ -1,4 +1,4 @@
-<h3> Loadings em CSS-Animation</h3><br>
+<h3> Loadings em CSS-Animation</h3>
 https://sandrosorte.github.io/Loadings_CSS_Animation/<hr>
 
 ![Captura de tela 2023-06-10 010345](https://github.com/SandroSorte/Loadings_CSS_Animation/assets/108229719/5a79c196-91ac-4e3f-bc7b-98e8860cb839)<hr>
